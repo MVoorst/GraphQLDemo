@@ -1,0 +1,6 @@
+type Query {
+    findAllAuthors: [Author]!
+    countAuthors: Long!
+    findAllBooks: [Book]!
+    countBooks: Long!
+}
