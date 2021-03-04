@@ -1,4 +1,4 @@
-package com.mvoorst.backbone.error;
+package com.mvoorst.demo.error;
 
 import graphql.ErrorType;
 import graphql.GraphQLError;

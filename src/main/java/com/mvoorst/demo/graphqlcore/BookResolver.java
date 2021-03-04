@@ -1,9 +1,9 @@
-package com.mvoorst.backbone.graphqls;
+package com.mvoorst.demo.graphqlcore;
 
 import com.coxautodev.graphql.tools.GraphQLResolver;
-import com.mvoorst.backbone.models.Author;
-import com.mvoorst.backbone.models.Book;
-import com.mvoorst.backbone.persistence.AuthorRepository;
+import com.mvoorst.demo.models.Author;
+import com.mvoorst.demo.models.Book;
+import com.mvoorst.demo.persistence.AuthorRepository;
 
 import java.util.Optional;
 

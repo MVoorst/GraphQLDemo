@@ -1,6 +1,6 @@
-package com.mvoorst.backbone.persistence;
+package com.mvoorst.demo.persistence;
 
-import com.mvoorst.backbone.models.Book;
+import com.mvoorst.demo.models.Book;
 import org.springframework.data.repository.CrudRepository;
 
 

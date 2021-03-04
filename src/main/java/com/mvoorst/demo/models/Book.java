@@ -1,4 +1,4 @@
-package com.mvoorst.backbone.models;
+package com.mvoorst.demo.models;
 
 import lombok.Data;
 

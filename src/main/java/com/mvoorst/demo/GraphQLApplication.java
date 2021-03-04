@@ -1,17 +1,14 @@
-package com.mvoorst.backbone;
+package com.mvoorst.demo;
 
-import com.mvoorst.backbone.error.GraphQLErrorAdapter;
-import com.mvoorst.backbone.graphqls.BookResolver;
-import com.mvoorst.backbone.graphqls.Mutation;
-import com.mvoorst.backbone.graphqls.Query;
-import com.mvoorst.backbone.models.Author;
-import com.mvoorst.backbone.models.Book;
-import com.mvoorst.backbone.persistence.AuthorRepository;
-import com.mvoorst.backbone.persistence.BookRepository;
+import com.mvoorst.demo.error.GraphQLErrorAdapter;
+import com.mvoorst.demo.graphqlcore.BookResolver;
+import com.mvoorst.demo.graphqlcore.Mutation;
+import com.mvoorst.demo.graphqlcore.Query;
+import com.mvoorst.demo.persistence.AuthorRepository;
+import com.mvoorst.demo.persistence.BookRepository;
 import graphql.ExceptionWhileDataFetching;
 import graphql.GraphQLError;
 import graphql.servlet.GraphQLErrorHandler;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -21,10 +18,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @SpringBootApplication
-public class BackboneApplication {
+public class GraphQLApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BackboneApplication.class, args);
+        SpringApplication.run(GraphQLApplication.class, args);
     }
 
 

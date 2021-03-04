@@ -1,7 +1,6 @@
-package com.mvoorst.backbone.graphqls;
+package com.mvoorst.demo.graphqlcore;
 
 import graphql.GraphQLError;
-import graphql.servlet.GenericGraphQLError;
 import graphql.servlet.GraphQLErrorHandler;
 
 import java.util.List;

@@ -1,10 +1,10 @@
-package com.mvoorst.backbone;
+package com.mvoorst.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackboneApplicationTests {
+class GraphQLApplicationTests {
 
     @Test
     void contextLoads() {
